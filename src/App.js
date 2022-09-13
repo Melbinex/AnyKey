@@ -5,6 +5,7 @@ import PizzaBlock from './components/PizzaBlock';
 
 import './scss/app.scss';
 
+import pizzas from './assets/pizzas.json';
 function App() {
   return (
     <div className="wrapper">
@@ -17,10 +18,9 @@ function App() {
           </div>
           <h2 className="content__title">Все пиццы</h2>
           <div className="content__items">
-            <PizzaBlock title="Мексиканская" price={350} />
-            <PizzaBlock title="Сладкий Перфом" price={4000} />
-            <PizzaBlock title="Сладкая Эля" price={4000} />
-            <PizzaBlock title="Сладкий Перфом" price={4000} />
+            {pizzas.map((obj) => (
+              <PizzaBlock title={obj.title} price={obj.price} imgUrl={obj.imageUrl} />
+            ))}
           </div>
         </div>
       </div>
