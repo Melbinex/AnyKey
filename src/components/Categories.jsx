@@ -1,13 +1,14 @@
 import React from 'react';
+
 function Categories() {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const categories = [
     'All',
-    'Traditionaly',
-    'Russian symbols',
-    'Ergonomical',
-    'Spacial for MAC',
     'Custom',
+    'Traditional',
+    'Ergonomic',
+    'Special for MAC',
+    'Russian symbols',
   ];
   const onClickCategory = (i) => {
     setActiveIndex(i);
