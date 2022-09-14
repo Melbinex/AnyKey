@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/4067/592842723/large_Vortex_Tab_60.jpg",
+    "title": "Vortex Tab 60",
+    "types": [0, 1],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry Black"],
+    "price": "11 690",
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  },
+{
+    "id": 3,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  }, 
+  {
+    "id": 4,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  }, 
+  {
+    "id": 5,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  }, 
+  {
+    "id": 6,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  }, 
+  {
+    "id": 7,
+    "imageUrl": "https://static.insales-cdn.com/images/products/1/6792/592845448/large_Varmilo_Cliff_Awake_VCS87.jpg",
+    "title": "Varmilo Cliff: Awake VCS87",
+    "types": [0],
+    "sizes": ["Cherry Brown", "Cherry Blue", "Cherry MX Read"],
+    "price": "15 490",
+    "category": 0,
+    "rating": 6
+  }
+]

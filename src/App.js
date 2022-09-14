@@ -1,11 +1,11 @@
 import Header from './components/Header';
 import Categories from './components/Categories';
 import Sort from './components/Sort';
-import PizzaBlock from './components/PizzaBlock';
+import Keyboard from './components/KeyboardBlock';
 
 import './scss/app.scss';
 
-import pizzas from './assets/pizzas.json';
+import keyboard from './assets/keyboard.json';
 function App() {
   return (
     <div className="wrapper">
@@ -13,13 +13,13 @@ function App() {
       <div className="content">
         <div className="container">
           <div className="content__top">
-            <Categories tittle="Мексиканская" price="300rub" />
+            <Categories />
             <Sort />
           </div>
-          <h2 className="content__title">Все пиццы</h2>
+          <h2 className="content__title">All keyboard</h2>
           <div className="content__items">
-            {pizzas.map((obj) => (
-              <PizzaBlock title={obj.title} price={obj.price} imgUrl={obj.imageUrl} />
+            {keyboard.map((obj) => (
+              <Keyboard {...obj} />
             ))}
           </div>
         </div>

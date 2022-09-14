@@ -1,20 +1,20 @@
-import logoSvg from '../assets/img/pizzaLogo.svg';
+import logoSvg from '../assets/img/Frame 38.svg';
 
 function Header() {
   return (
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <img width="38" src={logoSvg} alt="Pizza logo" />
+          <img width="60" src={logoSvg} alt="Pizza logo" />
           <div>
-            <h1>Family Pizza</h1>
-            <p>самая вкусная пицца во вселенной</p>
+            <h1>AnyKey</h1>
+            <p>Best Keyboard ever </p>
           </div>
         </div>
 
         <div className="header__cart">
           <a href="/cart.html" className="button button--cart">
-            <span>520 ₽</span>
+            <span>0 ₽</span>
             <div className="button__delimiter"></div>
             <svg
               width="18"
@@ -44,7 +44,7 @@ function Header() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span>3</span>
+            <span>0</span>
           </a>
         </div>
       </div>
