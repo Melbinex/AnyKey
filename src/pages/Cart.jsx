@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import Styles from './Cart.module.scss';
 export default function Cart() {
   return (
     <div class="cart">
@@ -75,7 +76,7 @@ export default function Cart() {
           <span>Очистить корзину</span>
         </div>
       </div>
-      <div class="content__items">
+      <div class={Styles.content__items}>
         <div class="cart__item">
           <div class="cart__item-img">
             <img
@@ -368,16 +369,14 @@ export default function Cart() {
       <div class="cart__bottom">
         <div class="cart__bottom-details">
           <span>
-            {' '}
-            Всего пицц: <b>3 шт.</b>{' '}
+            Всего пицц: <b>3 шт.</b>
           </span>
           <span>
-            {' '}
-            Сумма заказа: <b>900 ₽</b>{' '}
+            Сумма заказа: <b>900 ₽</b>
           </span>
         </div>
         <div class="cart__bottom-buttons">
-          <a href="/" class="button button--outline button--add go-back-btn">
+          <Link to="/" class="button button--outline button--add go-back-btn">
             <svg
               width="8"
               height="14"
@@ -394,7 +393,7 @@ export default function Cart() {
             </svg>
 
             <span>Вернуться назад</span>
-          </a>
+          </Link>
           <div class="button pay-btn">
             <span>Оплатить сейчас</span>
           </div>

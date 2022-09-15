@@ -19,7 +19,9 @@ body {
 
 .content {
  
-
+.cart{
+  padding-bottom: 60px;
+}
   &__title {
     font-size: 38px;
     font-weight: 800;
@@ -38,10 +40,12 @@ body {
     &__items{
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
+    
     &__title{
       margin: 35px 0px;
     }
   }
+
   &__top {
     display: flex;
     align-items: center;
