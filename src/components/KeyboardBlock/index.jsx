@@ -15,6 +15,7 @@ function KeyboardBlock({ title, price, imageUrl, sizes, types }) {
           {types.map((value, index) => {
             return (
               <li
+                key={index}
                 onClick={() => setActiveType(value)}
                 className={activeType === index ? 'active' : ''}>
                 {typeName[value]}
@@ -26,6 +27,7 @@ function KeyboardBlock({ title, price, imageUrl, sizes, types }) {
           {sizes.map((value, index) => {
             return (
               <li
+                key={index}
                 onClick={() => setActiveSize(index)}
                 className={activeSize === index ? 'active' : ''}>
                 {value}

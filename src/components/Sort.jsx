@@ -12,7 +12,7 @@ function Sort() {
     <div className="sort">
       <div className="sort__label">
         <svg
-          transform={open && 'rotate(180)'}
+          transform={open ? 'rotate(180)' : undefined}
           // className={open === true ? 'opened' : ''}
           width="10"
           height="6"
