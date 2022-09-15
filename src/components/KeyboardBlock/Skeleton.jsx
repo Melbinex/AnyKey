@@ -3,6 +3,7 @@ import ContentLoader from 'react-content-loader';
 
 const Skeleton = (props) => (
   <ContentLoader
+    className="keyboard-block"
     style={{ marginBottom: '35px' }}
     speed={2}
     width={282}

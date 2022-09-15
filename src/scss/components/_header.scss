@@ -3,13 +3,20 @@
 .header {
   border-bottom: 1px solid $gray-line;
   padding: 40px 0;
+  cursor: pointer;
 
   .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    @media (max-width: 520px ) {
+      &{
+        grid-template-columns: 1fr;
+      }
   }
-
+  }
   &__logo {
     display: flex;
 
@@ -26,6 +33,7 @@
     }
 
     p {
+      white-space: nowrap;
       color: #7b7b7b;
     }
   }

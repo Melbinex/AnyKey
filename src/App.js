@@ -1,6 +1,9 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
 import Home from './pages/Home';
+import Cart from './pages/Cart';
 import NoteFound from './pages/NotFound';
 import './scss/app.scss';
 
@@ -10,7 +13,11 @@ function App() {
       <Header />
       <div className="content">
         <div className="container">
-          <NoteFound />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NoteFound />} />
+          </Routes>
         </div>
       </div>
     </div>

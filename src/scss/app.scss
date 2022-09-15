@@ -18,22 +18,43 @@ body {
 }
 
 .content {
-  padding: 40px 0;
+ 
 
   &__title {
-    margin: 35px 0;
+    font-size: 38px;
+    font-weight: 800;
+    margin: 35px 60px;
   }
 
   &__items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 11px;
+    grid-row-gap: 0px;
   }
-
+  @media (max-width: 500px) {
+    &__items{
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    &__title{
+      margin: 35px 0px;
+    }
+  }
   &__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    @media (max-width: 1276px ) {
+      justify-content: center;
+      .categories{
+        white-space: nowrap;
+        width: 800;
+        overflow: scroll;
+      }
+    }
   }
 }
 
