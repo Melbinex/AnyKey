@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Categories() {
-  const [activeIndex, setActiveIndex] = React.useState(0);
+function Categories({ value, onClickCategory }) {
   const categories = [
     'All',
     'Custom',
@@ -10,22 +9,15 @@ function Categories() {
     'Special for MAC',
     'Russian symbols',
   ];
-  const onClickCategory = (i) => {
-    setActiveIndex(i);
-  };
+
   return (
     <div className="categories">
       <ul>
-        {categories.map((value, i) => {
-          return (
-            <li
-              key={i}
-              onClick={() => onClickCategory(i)}
-              className={activeIndex === i ? 'active' : ''}>
-              {value}
-            </li>
-          );
-        })}
+        {categories.map((categonyName, i) => (
+          <li key={i} onClick={() => onClickCategory(i)} className={value === i ? 'active' : ''}>
+            {categonyName}
+          </li>
+        ))}
       </ul>
     </div>
   );
