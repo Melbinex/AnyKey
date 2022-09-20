@@ -10,7 +10,7 @@ const Home = () => {
   const [isLoading, setIsLoading] = React.useState(true);
   const [categoryId, setCategoryId] = React.useState(0);
   const [sortType, setsorType] = React.useState({
-    name: 'popularity asc',
+    name: ' ▲ popularity',
     sortProperty: 'rating',
     order: 'asc',
   });
@@ -36,9 +36,11 @@ const Home = () => {
       </div>
       <h2 className="content__title">All keyboard</h2>
       <div className="content__items">
+        {/* <div className="keyboard-block--wrapper"> */}
         {isLoading
           ? [...new Array(8)].map((_, index) => <Skeleton key={index} />)
           : items.map((obj) => <Keyboard key={obj.id} {...obj} />)}
+        {/* </div> */}
       </div>
     </>
   );

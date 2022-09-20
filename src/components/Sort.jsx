@@ -3,12 +3,12 @@ import React from 'react';
 function Sort({ value, onChangeSort }) {
   const [open, setOpen] = React.useState(false);
   const list = [
-    { name: 'popularity asc', sortProperty: 'rating', order: 'asc' },
-    { name: 'popularity desc', sortProperty: 'rating', order: 'desc' },
-    { name: 'price asc', sortProperty: 'price', order: 'asc' },
-    { name: 'price desc', sortProperty: 'price', order: 'desc' },
-    { name: 'title asc', sortProperty: 'title', order: 'asc' },
-    { name: 'title desc', sortProperty: 'title', order: 'desc' },
+    { name: '▲ popularity', sortProperty: 'rating', order: 'asc' },
+    { name: '▼ popularity', sortProperty: 'rating', order: 'desc' },
+    { name: '▲ price', sortProperty: 'price', order: 'asc' },
+    { name: '▼ price', sortProperty: 'price', order: 'desc' },
+    { name: '▲ title', sortProperty: 'title', order: 'asc' },
+    { name: '▼ title', sortProperty: 'title', order: 'desc' },
   ];
 
   const onClickListItem = (i) => {
