@@ -76,7 +76,7 @@ export default function Cart() {
           <span>Очистить корзину</span>
         </div>
       </div>
-      <div class={Styles.content__items}>
+      {/* <div class={Styles.content__items}>
         <div class="cart__item">
           <div class="cart__item-img">
             <img class="keyboard-block__image" src="" alt="keyboard" />
@@ -349,14 +349,14 @@ export default function Cart() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div class="cart__bottom">
         <div class="cart__bottom-details">
           <span>
-            Всего пицц: <b>3 шт.</b>
+            All keyboard: <b>3 pcs.</b>
           </span>
           <span>
-            Сумма заказа: <b>900 ₽</b>
+            Total sume: <b>900 ₽</b>
           </span>
         </div>
         <div class="cart__bottom-buttons">
