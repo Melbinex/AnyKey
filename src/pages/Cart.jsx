@@ -79,14 +79,10 @@ export default function Cart() {
       <div class={Styles.content__items}>
         <div class="cart__item">
           <div class="cart__item-img">
-            <img
-              class="pizza-block__image"
-              src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
-              alt="Pizza"
-            />
+            <img class="keyboard-block__image" src="" alt="keyboard" />
           </div>
           <div class="cart__item-info">
-            <h3>Сырный цыпленок</h3>
+            <h3></h3>
             <p>тонкое тесто, 26 см.</p>
           </div>
           <div class="cart__item-count">
@@ -151,14 +147,10 @@ export default function Cart() {
         </div>
         <div class="cart__item">
           <div class="cart__item-img">
-            <img
-              class="pizza-block__image"
-              src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
-              alt="Pizza"
-            />
+            <img class="keyboard-block__image" src="" alt="keyboard" />
           </div>
           <div class="cart__item-info">
-            <h3>Сырный цыпленок</h3>
+            <h3></h3>
             <p>тонкое тесто, 26 см.</p>
           </div>
           <div class="cart__item-count">
@@ -223,14 +215,10 @@ export default function Cart() {
         </div>
         <div class="cart__item">
           <div class="cart__item-img">
-            <img
-              class="pizza-block__image"
-              src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
-              alt="Pizza"
-            />
+            <img class="keyboard-block__image" src="" alt="keyboard" />
           </div>
           <div class="cart__item-info">
-            <h3>Сырный цыпленок</h3>
+            <h3></h3>
             <p>тонкое тесто, 26 см.</p>
           </div>
           <div class="cart__item-count">
@@ -295,14 +283,10 @@ export default function Cart() {
         </div>
         <div class="cart__item">
           <div class="cart__item-img">
-            <img
-              class="pizza-block__image"
-              src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
-              alt="Pizza"
-            />
+            <img class="keyboard-block__image" src="" alt="keyboard" />
           </div>
           <div class="cart__item-info">
-            <h3>Сырный цыпленок</h3>
+            <h3></h3>
             <p>тонкое тесто, 26 см.</p>
           </div>
           <div class="cart__item-count">

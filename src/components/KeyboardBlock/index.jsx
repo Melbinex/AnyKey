@@ -38,7 +38,7 @@ function KeyboardBlock({ title, price, imageUrl, sizes, types }) {
           </ul>
         </div>
         <div className="keyboard-block__bottom">
-          <div className="keyboard-block__price">{price}₽</div>
+          <div className="keyboard-block__price">{price.toLocaleString('ru')}₽</div>
           <div className="button button--outline button--add">
             <svg
               width="12"

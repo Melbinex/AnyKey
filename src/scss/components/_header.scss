@@ -6,16 +6,16 @@
   cursor: pointer;
 
   .container {
-    display: grid;
-    grid-template-columns: 7fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    @media (max-width: 520px ) {
-      &{
-        grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    @media (max-width: 942px) {
+      & {
+        flex-direction: column;
+        justify-content: space-between;
       }
-  }
+    }
   }
   &__logo {
     display: flex;
