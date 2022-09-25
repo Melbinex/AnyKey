@@ -10,7 +10,6 @@
   cursor: pointer;
   transition: background-color $duration ease-in-out, border-color $duration ease-in-out;
   border: 1px solid transparent;
-  @include noselect();
 
   &,
   span {
@@ -130,7 +129,7 @@
     }
   }
 
-  &--cart {
+  &__cart {
     display: flex;
     align-items: center;
     justify-content: center;
